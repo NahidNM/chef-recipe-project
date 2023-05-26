@@ -1,0 +1,6 @@
+
+.baner{
+    background: linear-gradient(rgba(0, 0, 0, 0.761),rgba(0, 0, 0, 0.497)),url(./../../../public/img/recipe-banner.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
