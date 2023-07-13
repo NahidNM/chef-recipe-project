@@ -108,7 +108,7 @@ const Header = () => {
               <img  className='h-12 rounded-full md:h-12 md:w-12'  src={user?.photoURL} alt="" />
              </div> : 
              <div className='ml-5'>
-             <FaUserCircle size={46}></FaUserCircle>
+             <FaUserCircle className='bg-white' size={46}></FaUserCircle>
              </div>
              }
            

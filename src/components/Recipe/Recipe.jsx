@@ -25,7 +25,7 @@ const Recipe = () => {
         <div className='my-5 md:my-20'>
             <div className='flex gap-5 px-10 py-5 mx-auto rounded-lg md:w-3/5 bg-slate-400'>
                 <div>
-                <img className='rounded-lg  md:h-96 md:w-80'  src={master.img} alt="" />
+                <img className='rounded-lg md:h-96 md:w-80'  src={master.img} alt="" />
                 </div>
                <div className='mt-20 ml-20 space-y-3 font-semibold w-72'>
                <h1> <span className='text-xl font-semibold text-stone-950'>Name : </span>
@@ -52,4 +52,4 @@ const Recipe = () => {
     );
 };
 
-export default Recipe;<h1>Recipi</h1>
+export default Recipe;

@@ -7,6 +7,8 @@ import dishes from './../../../public/img/hot dishes.jpeg'
 import vege from './../../../public/img/vegetarian.jpeg'
 import drinks from './../../../public/img/drinks.png'
 import Addition from './Addition';
+import Tradition from './Tradition';
+import Discount from './Discount';
 
 
 
@@ -21,7 +23,8 @@ const Cheif = () => {
   },[])
 
     return (
-        <div className='my-10'>
+        <div>
+          <div className='my-10'>
             <h4 className='p-3 mx-2 text-3xl font-bold text-center rounded-lg md:mx-auto md:w-3/5 text-slate-600 bg-cyan-500'> The Chefs Who Are Best at Their Own Way</h4>
            <div className='grid items-center grid-cols-1 gap-5 p-5 md:mx-10 lg:grid-cols-3 md:grid-cols-2'>
             {
@@ -30,6 +33,8 @@ const Cheif = () => {
             )}
             
            </div>
+           
+           <Tradition></Tradition>
            
          {/* second section */}
          
@@ -62,6 +67,8 @@ const Cheif = () => {
           
           {/* Third Section */}
           <Addition></Addition>
+          <Discount></Discount>
+        </div>
         </div>
     );
 };
